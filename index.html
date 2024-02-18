@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c5996fa8c0.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+        </div class="container">
+            <nav>
+                <div class="left">Manaswi's Portfolio</div>
+                <div class="right">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hello</h1>
+                <h2>I'm <span>Manaswi Tomar</span><br> a Web Developer with
+                    a passion for DevOps</h2>
+
+            </div>
+           
+        </div>
+    </div>
+    <!--------------------------------------about----------------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="downloads/mansi.img.jpg">
+                    </div>
+                        <div class="about-col-2">
+                            <h1 class="sub-title">About Me</h1>
+                            <h4>I'm a Passionate web developer with a keen eye
+                                for design and a flair for creating seamless,
+                                user friendly digital experiences. with a strong
+                                foundation in front-end and back-end
+                                technologies, specialize in turning ideas into
+                                beautifully crafted websites.</h4>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link"
+                                    onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links active-link"
+                                    onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links active-link"
+                                    onclick="opentab('education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Web Developer</span></li>
+                                    <li><span>Graphic Designer</span></li>
+                                    <li><span>My SQL</span></li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>Learner in the world of Full Stack
+                                            Web Developement<br>A dedicated web
+                                            doveloper,
+                                            I've honed a versatile skill set
+                                            that empowers
+                                            me to bring creative visions to life
+                                            in the digital world. My proficiency
+                                            spans both front-end
+                                            and back-end technologies, including
+                                            Html, CSS, Javascript, and variety
+                                            of popular frameworks.</span></li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>Persuing Btech in computer
+                                            science</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------projects------------------------------------------------>
+    <section class="projects" id="projects">
+        <div class="projects" id="projects">
+            <div class="main-text">
+                <h2>Latest Projects</h2>
+                    <div class="portfolio-content">
+                        <div class="row">
+                            <div class="layer">
+                                <img src="calci.jpg"
+                                alt="my-calculator"
+                                class="calci-img">
+                            </div>
+                            <h5>My Calculator</h5>
+                            <p>It is a simple calculator that is
+                                made with the help of HTML , CSS and
+                                JavaScript. It was my
+                                first porject that I made in Web-
+                                Development. I got to learn a lot
+                                about HTML and CSS and a
+                                small portion of JavaScript. </p>
+                                <a href="calci.html"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"
+                                    style="color: #ffffff;"></i></a> 
+                            </div>
+                        <div class="row">
+                            <div class="layer">
+                                <img src="tic-tac-toe.jpg"
+                                    alt="Tic-Tac-Toe"
+                                    class="tic-tac-toe-img">
+                                    </div>
+                                    <h5>Tic-Tac-Toe Game</h5>
+                                    <p>It is a game which we all have played
+                                       in our chidhood. It is made with
+                                       simple HTML , CSS and
+                                        JavaScript. it is a two plyer game .
+                                        I made it with the help of
+                                        Youtube.</p>
+                                        <a href="tic-tac-toe.html"><i
+                                                class="fa-solid fa-arrow-up-right-from-square"
+                                                style="color: #ffffff;"></i></a>
+                                    </div>
+                            </div>
+                            <a href="#" class="btn">See more</a>
+                        </div>
+                    </div>
+                </section>
+    <!---------------------------------------contact-------------------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div id="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class= "fas fa-paper-plane"></i>manaswitomar17@gmail.com</p>
+                    <p><i class= "fas fa-phone-square-alt"></i>8533916206</p>
+                    <div class="social-icons">
+                        <a href=""><i class= "fab fa-instagram"></i></a>
+                        <a href=""><i class= "fab fa-linkedin"></i></a>
+                        <a href=""><i class= "fab fa-github"></i></a>
+                        <a href=""><i class= "fab fa-gmail"></i></a>
+                    </div>
+                </div>
+                </div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                         <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <input type="message" name="Message" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        </div class="copyright">
+            <p>Copyright @ portfolio<i class="fa-solid fa-heart"></i></p>
+        </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+                {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+        }
+                    
+                    
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+                    }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+                    }
+    </script>
+    <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwWft4BDkKHst_idgX-7FToSQoPddFIWHqcGb0VBavembRRJWLCZTbeyJRjHzDMse_3nA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+    </script>
+
+    </body>
+</html>
